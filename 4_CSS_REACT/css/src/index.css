@@ -12,3 +12,15 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+.red-title {
+  background-color: black;
+  color: red;
+  padding: 15px;
+  border: 15px solid red;
+}
+
+.title {
+  background-color: black;
+  color: white;
+}
