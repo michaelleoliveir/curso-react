@@ -1,0 +1,33 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.addProduct {
+  margin: 10px;
+}
+
+.addProduct form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.addProduct input{
+  margin: 5px;
+}
+
+input[type=submit] {
+  padding: 7px;
+  border-radius: 10px;
+}
