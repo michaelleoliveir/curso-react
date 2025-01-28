@@ -1,34 +1,14 @@
 {
   "products": [
     {
-      "id": "1",
-      "name": "Camisa",
-      "price": 59.9
-    },
-    {
       "id": "2",
       "name": "Calça vermelha",
       "price": 90
     },
     {
-      "id": "3",
-      "name": "Boné aba reta",
-      "price": 29.9
-    },
-    {
-      "id": "4",
-      "name": "Cropped",
-      "price": "50"
-    },
-    {
       "id": "f2db",
       "name": "teste",
       "price": "10"
-    },
-    {
-      "id": "9303",
-      "name": "microfone",
-      "price": ""
     },
     {
       "id": "1ab5",
