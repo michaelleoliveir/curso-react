@@ -1,12 +1,15 @@
 import './Navbar.css'
 
-import { Link } from 'react-router'
+import { Link, NavLink } from 'react-router'
 
 const Navbar = () => {
     return (
         <nav>
-            <Link to='/'>Home</Link>
-            <Link to='/about'>About</Link>
+            {/* <Link to='/'>Home</Link>
+            <Link to='/about'>About</Link> */}
+
+            <NavLink to="/" className={(isActive) => (isActive ? "esta-ativo" : "nao-ativo")}>Home</NavLink>
+            <NavLink to="/about">Sobre</NavLink>
         </nav>
     )
 }
